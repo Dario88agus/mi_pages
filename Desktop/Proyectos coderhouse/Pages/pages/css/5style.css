@@ -1,0 +1,29 @@
+/*cursos*/
+
+
+
+.heading{
+      text-align: center;
+      background: green;
+      text-transform: uppercase;
+      padding: 1rem;
+      
+
+
+}
+.detalles.CAJA-contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TEXTO{
+    font-family: cursive;
+    color: white;
+}
+
+.TITULO{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.CURSO {
+    background-color: black;
+}

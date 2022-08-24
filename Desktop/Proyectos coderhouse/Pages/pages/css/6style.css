@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+}
+#header.header2{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 200%;
+}
+.header__logo{
+    width: 200px;
+    height: 100%; ;
+    margin-left: 50px;
+    cursor: pointer;
+   
+}
+.header__menu ul li {
+     display: flex;
+    justify-content: space-between;
+     align-items: center;
+     height: 35px;
+     padding: 5px ;
+     display: inline-block;
+     padding: 0 20px;
+    
+    
+}
+.header__menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 40px;
+    font-weight: bold;
+    float: right;
+}
+.header__menu ul li a:hover{
+    color: red;
+    transition: .3s;
+}
+
+
+
+
+.intro__titulo{
+    background-color: rgb(75, 9, 138);
+    text-align: center;
+    color: white;
+    height: 50px;
+    margin: 20px;
+   
+
+    }
+.intro__texto{
+    background: rgb(8, 8, 8) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     width:700px ;
+     height: 200px;
+     margin-left:auto ;
+     margin-right: auto;
+     
+     color: white;
+     text-decoration: none;
+}
+.boton{
+    background: #039be5;
+    color: #ffffff;
+     text-decoration: none;
+    margin: 42px;
+    position: absolute;
+    left: 600px;
+    top:35%;
+    border-radius: 50px;
+    padding: 20px 70px ;
+    font-size: 1,5rem;
+    padding: 20px 30px;
+}
+
+#conteinerimg {
+     background-color:black;
+
+}
+.conteiner  {
+    display: grid;
+    grid-template-columns:repeat(2, 5fr));
+    grid-auto-rows: minmax(300px,auto); 
+    gap: -50px;
+}
+img{
+    width: 50%;
+    height: 50%;
+    
+    object-fit: cover;
+}
+.titulo{
+    color: rgb(180, 150, 252);
+    margin: 20px;
+    text-align: left;
+    height: 20px;
+    font-size: 30px;
+}
+.texto2{
+    color: white;
+    margin: 10px;
+    margin-top: -200px;
+   font-size: medium;
+}
+.piede-pagina{
+    width: 100%;
+    background-color: black;
+}
+.piede-pagina .grupo-1{
+    width: 100%;
+    color: aqua;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 70px 57px;
+   
+
+
+}
+
+
+@media(min-width:600px){
+    s
+}
+.wide{
+    grid-column: span 3 ;
+}
+.tall{
+    grid-row: span 2 ;
+}
+
